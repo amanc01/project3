@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://www.99images.com/download-image/832156/2000x1500");
+    background-size: cover;
+    color: white;
+    height: 100%;
+    font-family: 'Audiowide';
+}
+
+.left {
+    /*border: 2px solid red;*/
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 18px;
+
+}
+
+.left div {
+    text-align: center;
+}
+
+.left img {
+    width: 70px;
+    filter: invert(100%);
+    background-color: transparent;
+    margin-left: 71px;
+
+}
+
+.left img:hover {
+
+    filter: invert(0%);
+
+}
+
+.right {
+    /*border: 2px solid yellow;*/
+    display: inline-block;
+    position: absolute;
+    right: 14px;
+    top: 18px;
+}
+
+.mid {
+    /*border: 2px solid green;*/
+    display: block;
+    width: 48%;
+    margin: 37px auto;
+    top: 0px;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+    ;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: aqua;
+    font-size: 19px;
+}
+
+.btn {
+    margin: 11px 9px;
+    color: white;
+    background-color: #183b49;
+    padding: 9px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 151px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    font-size: 19px;
+    background-color: #32718a;
+    color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    border: 2px solid;
+    border-radius: 45px;
+    margin: 82px;
+    padding-top: 27px;
+    font-size: 11px;
+    display: inline-block;
+    width: 457px;
+    height: 275px;
+}
+
+.sub {
+    text-align: center;
+}
+
+span {
+    color: crimson;
+}
+
+.btn1 {
+    display: block;
+    color: white;
+    background-color: #183b49;
+    padding: 9px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 285px;
+    cursor: pointer;
+    margin: 19px auto;
+}
+
+.form-grp input {
+    text-align: center;
+    display: block;
+    width: 276px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin: 5px auto;
+}
